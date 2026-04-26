@@ -48,7 +48,8 @@ export default function StorefrontHome() {
           </p>
           <div className="flex items-center space-x-6">
             <Link 
-              href="#" 
+              href="/store" 
+              onClick={() => alert("Added to mock cart!")}
               className="group relative inline-flex items-center space-x-4 border-b-2 border-[#333333] pb-2 overflow-hidden"
             >
                <span className="text-sm font-semibold tracking-widest uppercase text-[#333333] group-hover:text-[#E5C1CD] transition-colors duration-300">

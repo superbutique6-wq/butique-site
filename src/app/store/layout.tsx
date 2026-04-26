@@ -18,20 +18,20 @@ export default function StorefrontLayout({
         <div className="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center h-24">
           <div className="flex-1">
             <nav className="hidden md:flex space-x-12 text-sm tracking-widest">
-              <Link href="#" className="hover:text-[#E5C1CD] transition-colors">NEW ARRIVALS</Link>
-              <Link href="#" className="hover:text-[#E5C1CD] transition-colors">BLOUSES</Link>
-              <Link href="#" className="hover:text-[#E5C1CD] transition-colors">SUITS</Link>
-              <Link href="#" className="hover:text-[#E5C1CD] transition-colors">DRESSES</Link>
+              <Link href="/store" className="hover:text-[#E5C1CD] transition-colors">NEW ARRIVALS</Link>
+              <Link href="/store" className="hover:text-[#E5C1CD] transition-colors">BLOUSES</Link>
+              <Link href="/store" className="hover:text-[#E5C1CD] transition-colors">SUITS</Link>
+              <Link href="/store" className="hover:text-[#E5C1CD] transition-colors">DRESSES</Link>
             </nav>
           </div>
           
           <div className="flex-1 text-center font-[family-name:var(--font-playfair)]">
-            <h1 className="text-4xl tracking-tight text-[#333333]">PRERNA SILKS</h1>
+            <Link href="/store" className="text-4xl tracking-tight text-[#333333]">PRERNA SILKS</Link>
           </div>
 
           <div className="flex-1 flex justify-end space-x-6 text-sm tracking-widest">
-            <Link href="#" className="hover:text-[#E5C1CD] transition-colors">SEARCH</Link>
-            <Link href="#" className="hover:text-[#E5C1CD] transition-colors">CART (0)</Link>
+            <Link href="/store" className="hover:text-[#E5C1CD] transition-colors">SEARCH</Link>
+            <Link href="/store" className="hover:text-[#E5C1CD] transition-colors">CART (0)</Link>
           </div>
         </div>
       </header>
