@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { motion, useScroll, useTransform, AnimatePresence, useSpring, useMotionValue } from 'framer-motion';
-import { ArrowRight, MessageCircle, X, ShoppingBag, ArrowUpRight, PlayCircle } from 'lucide-react';
+import { ArrowRight, MessageCircle, X, ArrowUpRight, PlayCircle } from 'lucide-react';
 import { useSearchParams } from 'next/navigation';
 
 const PRODUCTS = [
